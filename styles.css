@@ -1,0 +1,218 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #102655;
+}
+
+header {
+    background: rgb(143, 144, 148);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+}
+
+
+nav {
+    background: #444;
+    color: #fff;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.section {
+    padding: 40px 0;
+    background: #fff;
+    margin: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Project section styles */
+.project-section {
+    width: 100%;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.project-section h2, 
+.project-section h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.project-section p, 
+.project-section ul {
+    margin: 10px 0;
+}
+
+.project-section ul {
+    padding-left: 20px;
+}
+
+.project-section li {
+    margin-bottom: 10px;
+}
+
+/* Optional: Add a border or background color to distinguish each project section */
+.project-section {
+    border: 1px solid #ddd; /* Adds a light border */
+    background-color: #f9f9f9; /* Adds a light background color */
+    border-radius: 5px; /* Rounds the corners slightly */
+}
+
+/* Image gallery section styles */
+.image-gallery {
+    margin: 20px 0; /* Optional: Add some margin around the gallery */
+}
+
+.image-gallery h2 {
+    text-align: center; /* Center-align the title */
+    margin-bottom: 20px; /* Add space below the title */
+    color: #444; /* Adjust color for readability */
+}
+
+.gallery-items {
+    display: flex; /* Aligns images horizontally */
+    justify-content: space-around; /* Distributes space evenly */
+    flex-wrap: wrap; /* Allows wrapping if there are too many images */
+}
+
+.gallery-items figure {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    text-align: center; /* Center-align the image and caption */
+    width: 30%; /* Adjust width to fit your design */
+}
+
+.gallery-items img {
+    width: 100%; /* Make image fill the container width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure images are block-level elements */
+    margin-bottom: 10px; /* Add space between image and caption */
+}
+
+.gallery-items figcaption {
+    font-size: 0.9em; /* Slightly smaller text for captions */
+    color: #333; /* Adjust color for readability */
+}
+
+/* Border bar styles */
+.border-bar {
+    border-top: 10px solid #102655; /* Color and thickness of the border */
+    margin: 40px 0; /* Space above and below the border */
+    width: 100%; /* Full width of the container */
+}
+
+nav {
+    background: #444;
+    color: #fff;
+    position: fixed; /* Fixes the nav to the top */
+    top: 0; /* Positions the nav at the very top */
+    width: 100%; /* Ensures the nav spans the full width of the viewport */
+    z-index: 1000; /* Ensures the nav stays on top of other elements */
+}
+
+nav .container {
+    max-width: 1200px; /* Adjust the container width as needed */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Optional padding for spacing */
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+body {
+    padding-top: 60px; /* Adds padding to the top to prevent content from hiding behind the fixed nav */
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+a {
+    color: #444;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
